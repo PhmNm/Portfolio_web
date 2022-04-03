@@ -1041,14 +1041,10 @@ section .title {
     text-align: center;
 }
 
-section .carousel-inner .row .col-md-6 :first-child {
+/* section .carousel-inner .row .col-md-6 :first-child {
     height: 540px;
     background-image: url('../images/sit1.png');
     background-repeat: no-repeat;
     background-position: center;
     /* background-size: cover; */
-}
-
-section .carousel-inner .row .col-md-6 :nth-child(2) {
-    background-color: black;
-}
+} */
