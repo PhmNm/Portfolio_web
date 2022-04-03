@@ -22,12 +22,13 @@
     font-family: "Roboto-LightItalic";
     src: url("../font/Roboto/Roboto-LightItalic.ttf");
 }
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 /*Default for font family, size, color*/
 body {
     font-family: "Roboto-Regular";
     font-size: 15px;
-    color: #999;
+    background-color: black;
 }
 
 /*Reset margin top/bottom*/
@@ -67,7 +68,6 @@ a:hover {
 
 .menu-item,
 .title {
-    font-family: "Montserrat-Regular";
     font-size: 14px;
     color: #333;
     text-transform: uppercase;
@@ -145,10 +145,11 @@ a:hover {
 
 .small-heading {
     margin-top: 0;
-    font-family: "Kaushan Script";
-    color: #333;
-    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+    font-size: 70px;
     margin-bottom: 11px;
+    text-align: center;
 }
 
 .box {
@@ -313,11 +314,6 @@ header .navbar-dark .navbar-nav .nav-link.active {
 
 header .navbar-dark button {
     margin-left: auto;
-}
-
-/*icon search*/
-header .navbar-dark .nav .nav-item:last-child .nav-link {
-    padding-right: 0;
 }
 
 header .mogo-fixed-menu {
@@ -1047,4 +1043,32 @@ section .title {
     background-repeat: no-repeat;
     background-position: center;
     /* background-size: cover; */
-} */
+    .contentRelative {
+        position: relative;
+        width: 100%;
+      }
+      .contentAbsolute {
+        position: absolute;
+        top: 5%;
+        left: 0px;
+        right: 0px;
+        width: 500px;
+        margin: 0px auto;
+        color: #fff;
+      } 
+      .contentAbsolute1 {
+        position: absolute;
+        bottom: 6%;
+        left: 0px;
+        right: 0px;
+        width: 500px;
+        margin: 0px auto;
+        color: #fff;
+      } 
+      .pill {
+        height:0px;
+        border-radius: 2px;
+        color: #95e1d3;
+        border: 2px solid currentColor;
+        width: 80%;
+      }
